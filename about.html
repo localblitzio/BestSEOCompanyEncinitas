@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Digital Rankings - Encinitas-based editorial team providing unbiased SEO company reviews and digital marketing insights since 2020.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bestseocompanyencinitas.pages.dev/about">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us | Digital Rankings">
+    <meta property="og:description" content="Meet the team behind Digital Rankings - your trusted source for unbiased SEO company reviews in Encinitas and San Diego.">
+    <meta property="og:url" content="https://bestseocompanyencinitas.pages.dev/about">
+    <meta property="og:site_name" content="Digital Rankings">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Us | Digital Rankings">
+    <meta name="twitter:description" content="Meet the team behind Digital Rankings - your trusted source for unbiased SEO company reviews.">
+
+    <title>About Us | Digital Rankings</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%86%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-navy: #0a1628;
+            --warm-gold: #c9a227;
+            --soft-cream: #faf8f5;
+            --muted-sage: #8b9a7d;
+            --rich-burgundy: #722f37;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --accent-gradient: linear-gradient(135deg, var(--warm-gold) 0%, #e8d59e 50%, var(--warm-gold) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--soft-cream);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        /* Subtle texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.02;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* Header */
+        .masthead {
+            background: var(--deep-navy);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .masthead-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--warm-gold);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .masthead-nav {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.75rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .masthead-nav a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .masthead-nav a:hover,
+        .masthead-nav a.active {
+            color: var(--warm-gold);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--deep-navy);
+            padding: 6rem 2rem 8rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at 50% 100%, rgba(201, 162, 39, 0.15) 0%, transparent 60%);
+        }
+
+        .hero-label {
+            font-size: 0.7rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--warm-gold);
+            margin-bottom: 2rem;
+            display: inline-block;
+            position: relative;
+        }
+
+        .hero-label::before,
+        .hero-label::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 1px;
+            background: var(--warm-gold);
+        }
+
+        .hero-label::before { right: 110%; }
+        .hero-label::after { left: 110%; }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            color: white;
+            font-weight: 400;
+            line-height: 1.15;
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+            position: relative;
+        }
+
+        .hero h1 em {
+            font-style: italic;
+            color: var(--warm-gold);
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.6);
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* About Sections */
+        .about-section {
+            padding: 4rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+        }
+
+        .about-section:last-child {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 400;
+            color: var(--deep-navy);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Mission Box */
+        .mission-box {
+            background: var(--deep-navy);
+            padding: 3rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+        }
+
+        .mission-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--warm-gold);
+            margin-bottom: 1rem;
+        }
+
+        .mission-box p {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        /* Values Grid */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .value-item {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 4px;
+        }
+
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .value-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--deep-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .value-item p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Team Section */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+            border-left: 4px solid var(--warm-gold);
+        }
+
+        .team-member h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--deep-navy);
+            margin-bottom: 0.25rem;
+        }
+
+        .team-role {
+            font-size: 0.8rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--warm-gold);
+            margin-bottom: 1rem;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .team-credentials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .credential-tag {
+            background: var(--soft-cream);
+            color: var(--text-secondary);
+            padding: 0.3rem 0.75rem;
+            font-size: 0.7rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            border-radius: 2px;
+        }
+
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+            padding: 3rem;
+            background: white;
+            border-radius: 4px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--warm-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+
+        /* Independence Notice */
+        .independence-notice {
+            background: var(--muted-sage);
+            color: white;
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+
+        .independence-notice h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .independence-notice p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+        /* Local Section */
+        .local-section {
+            background: var(--deep-navy);
+            margin: 4rem -2rem;
+            padding: 4rem;
+            text-align: center;
+        }
+
+        .local-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .local-section p {
+            color: rgba(255,255,255,0.7);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--deep-navy);
+            padding: 4rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--warm-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-text {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .footer-heading {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--warm-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            max-width: 1100px;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .masthead-nav {
+                display: none;
+            }
+
+            .local-section {
+                margin: 3rem -2rem;
+                padding: 3rem 2rem;
+            }
+        }
+    </style>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://bestseocompanyencinitas.pages.dev/#organization",
+        "name": "Digital Rankings",
+        "url": "https://bestseocompanyencinitas.pages.dev",
+        "description": "Your trusted source for unbiased digital marketing agency reviews and industry insights.",
+        "foundingDate": "2020",
+        "areaServed": {
+            "@type": "City",
+            "name": "Encinitas",
+            "containedInPlace": {
+                "@type": "State",
+                "name": "California"
+            }
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Encinitas",
+            "addressRegion": "CA",
+            "postalCode": "92024",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "editorial",
+            "email": "editorial@digitalrankings.com",
+            "url": "https://bestseocompanyencinitas.pages.dev/contact"
+        },
+        "founder": [
+            {
+                "@type": "Person",
+                "name": "Sarah Mitchell",
+                "jobTitle": "Founder & Editor-in-Chief"
+            }
+        ],
+        "knowsAbout": ["SEO", "Digital Marketing", "Local Search", "Agency Reviews"]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <a href="index.html" class="masthead-brand">Digital Rankings</a>
+        <nav class="masthead-nav">
+            <a href="index.html">Rankings</a>
+            <a href="encinitas-seo-guide.html">SEO Guide</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <span class="hero-label">Who We Are</span>
+        <h1>The Team Behind <em>Digital Rankings</em></h1>
+        <p class="hero-subtitle">Independent editorial research helping businesses find the right digital marketing partners since 2020.</p>
+    </section>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+
+        <!-- Our Story -->
+        <section class="about-section">
+            <h2 class="section-title">Our Story</h2>
+            <p>Digital Rankings was founded in 2020 with a simple mission: bring transparency to an industry that desperately needed it. After years of watching businesses struggle to evaluate SEO agencies—often falling victim to exaggerated claims and opaque practices—we decided to create the resource we wished had existed.</p>
+            <p>Based in Encinitas, California, we understand the unique challenges facing local businesses in competitive markets. Our proximity to San Diego's thriving tech scene gives us unparalleled access to the digital marketing community, while our roots in North County keep us grounded in the needs of small and medium-sized businesses.</p>
+            <p>Today, our rankings and guides are trusted by thousands of business owners each month who are seeking honest, well-researched evaluations of their marketing options.</p>
+        </section>
+
+        <!-- Mission -->
+        <div class="mission-box">
+            <h3>Our Mission</h3>
+            <p>"To provide business owners with the unbiased, thoroughly-researched information they need to make confident decisions about their digital marketing investments."</p>
+        </div>
+
+        <!-- Our Values -->
+        <section class="about-section">
+            <h2 class="section-title">Our Values</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon" aria-hidden="true">🔍</div>
+                    <h4>Rigorous Research</h4>
+                    <p>Every ranking involves months of evaluation, client interviews, and verification of claims.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon" aria-hidden="true">⚖️</div>
+                    <h4>Editorial Independence</h4>
+                    <p>We never accept payment for rankings or allow advertising to influence our recommendations.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon" aria-hidden="true">🎯</div>
+                    <h4>Practical Focus</h4>
+                    <p>Our content is designed to help real businesses make real decisions, not to impress industry insiders.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Editorial Independence -->
+        <div class="independence-notice">
+            <h4>Editorial Independence Commitment</h4>
+            <p>Digital Rankings maintains complete editorial independence. We do not accept payment for rankings, reviews, or placement. While we may earn affiliate commissions from some links, this compensation never influences our rankings or editorial recommendations. Our methodology is transparent, and our only loyalty is to our readers.</p>
+        </div>
+
+        <!-- Team -->
+        <section class="about-section" id="team">
+            <h2 class="section-title">Our Team</h2>
+            <p>Our editorial team combines decades of experience in digital marketing, journalism, and business consulting. Each team member brings unique expertise that contributes to our thorough evaluation process.</p>
+
+            <div class="team-grid">
+                <div class="team-member" id="sarah-mitchell">
+                    <h4>Sarah Mitchell</h4>
+                    <p class="team-role">Founder & Editor-in-Chief</p>
+                    <p>Sarah brings 15+ years of digital marketing experience, including leadership roles at two Inc. 5000 agencies. She founded Digital Rankings to bring the same rigorous evaluation standards she applied to client campaigns to the agency selection process itself.</p>
+                    <div class="team-credentials">
+                        <span class="credential-tag">Google Analytics Certified</span>
+                        <span class="credential-tag">HubSpot Certified</span>
+                        <span class="credential-tag">15+ Years Experience</span>
+                    </div>
+                </div>
+
+                <div class="team-member" id="michael-torres">
+                    <h4>Michael Torres</h4>
+                    <p class="team-role">Senior Research Analyst</p>
+                    <p>Michael leads our agency evaluation process, conducting interviews with clients and verifying performance claims. His background in investigative journalism ensures our research meets the highest standards of accuracy and fairness.</p>
+                    <div class="team-credentials">
+                        <span class="credential-tag">Former Tech Journalist</span>
+                        <span class="credential-tag">Data Analysis</span>
+                        <span class="credential-tag">10+ Years Experience</span>
+                    </div>
+                </div>
+
+                <div class="team-member" id="jennifer-chen">
+                    <h4>Jennifer Chen</h4>
+                    <p class="team-role">Technical SEO Specialist</p>
+                    <p>Jennifer evaluates the technical capabilities of agencies we review, assessing their approach to site architecture, performance optimization, and search algorithm compliance. Her hands-on SEO experience ensures our rankings reflect genuine technical competence.</p>
+                    <div class="team-credentials">
+                        <span class="credential-tag">Technical SEO Expert</span>
+                        <span class="credential-tag">Web Development</span>
+                        <span class="credential-tag">8+ Years Experience</span>
+                    </div>
+                </div>
+
+                <div class="team-member" id="david-nakamura">
+                    <h4>David Nakamura</h4>
+                    <p class="team-role">Local Business Consultant</p>
+                    <p>David specializes in understanding the unique challenges facing local and regional businesses. His experience running his own small business gives him invaluable perspective on what owners actually need from their marketing partners.</p>
+                    <div class="team-credentials">
+                        <span class="credential-tag">Small Business Owner</span>
+                        <span class="credential-tag">Local Marketing</span>
+                        <span class="credential-tag">12+ Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Years Publishing</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Agencies Reviewed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Client Interviews</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">45+</div>
+                <div class="stat-label">Years Combined Experience</div>
+            </div>
+        </div>
+
+        <!-- Local Section -->
+        <div class="local-section">
+            <h3>Proudly Based in Encinitas</h3>
+            <p>Our office is located in the heart of North County San Diego. We're part of the community we serve, and we understand the local business landscape intimately. When we evaluate agencies for their Encinitas expertise, we're speaking from firsthand knowledge.</p>
+        </div>
+
+        <!-- Contact CTA -->
+        <section class="about-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>Have questions about our methodology? Want to suggest an agency for review? We'd love to hear from you. Our editorial team reads every message and responds to inquiries within 2 business days.</p>
+            <p>Visit our <a href="contact.html" style="color: var(--warm-gold);">contact page</a> to reach us, or learn more about <a href="methodology.html" style="color: var(--warm-gold);">how we evaluate agencies</a>.</p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <div class="footer-brand">Digital Rankings</div>
+                <p class="footer-text">Your trusted source for unbiased digital marketing agency reviews and industry insights. Based in Encinitas, California since 2020.</p>
+            </div>
+            <div>
+                <h4 class="footer-heading">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">SEO Company Rankings</a></li>
+                    <li><a href="encinitas-seo-guide.html">Encinitas SEO Guide</a></li>
+                    <li><a href="methodology.html">Our Methodology</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="authors.html">Our Authors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Digital Rankings. All rights reserved.</span>
+            <span>Made with care in Encinitas, CA</span>
+        </div>
+    </footer>
+
+</body>
+</html>

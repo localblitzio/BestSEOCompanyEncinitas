@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Digital Rankings - Report inaccuracies, suggest agencies for review, or ask questions about our SEO company rankings and methodology.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bestseocompanyencinitas.pages.dev/contact">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Us | Digital Rankings">
+    <meta property="og:description" content="Get in touch with Digital Rankings - we welcome feedback, corrections, and agency suggestions.">
+    <meta property="og:url" content="https://bestseocompanyencinitas.pages.dev/contact">
+    <meta property="og:site_name" content="Digital Rankings">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact Us | Digital Rankings">
+    <meta name="twitter:description" content="Get in touch with Digital Rankings - we welcome feedback, corrections, and agency suggestions.">
+
+    <title>Contact Us | Digital Rankings</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%86%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-navy: #0a1628;
+            --warm-gold: #c9a227;
+            --soft-cream: #faf8f5;
+            --muted-sage: #8b9a7d;
+            --rich-burgundy: #722f37;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --accent-gradient: linear-gradient(135deg, var(--warm-gold) 0%, #e8d59e 50%, var(--warm-gold) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--soft-cream);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.02;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* Header */
+        .masthead {
+            background: var(--deep-navy);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .masthead-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--warm-gold);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .masthead-nav {
+            display: flex;
+            gap: 2rem;
+            font-size: 0.75rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .masthead-nav a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .masthead-nav a:hover,
+        .masthead-nav a.active {
+            color: var(--warm-gold);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--deep-navy);
+            padding: 6rem 2rem 8rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at 50% 100%, rgba(201, 162, 39, 0.15) 0%, transparent 60%);
+        }
+
+        .hero-label {
+            font-size: 0.7rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--warm-gold);
+            margin-bottom: 2rem;
+            display: inline-block;
+            position: relative;
+        }
+
+        .hero-label::before,
+        .hero-label::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 1px;
+            background: var(--warm-gold);
+        }
+
+        .hero-label::before { right: 110%; }
+        .hero-label::after { left: 110%; }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            color: white;
+            font-weight: 400;
+            line-height: 1.15;
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+            position: relative;
+        }
+
+        .hero h1 em {
+            font-style: italic;
+            color: var(--warm-gold);
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.6);
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        .content-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Contact Layout */
+        .contact-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            padding: 4rem 0;
+        }
+
+        /* Contact Form */
+        .contact-form-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--deep-navy);
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 1rem;
+            border: 1px solid rgba(0,0,0,0.1);
+            border-radius: 4px;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 1rem;
+            background: white;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--warm-gold);
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .submit-button {
+            background: var(--deep-navy);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 0.8rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .submit-button:hover {
+            background: var(--warm-gold);
+            color: var(--deep-navy);
+        }
+
+        /* Contact Info */
+        .contact-info-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--deep-navy);
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info-section > p {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .contact-details {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-icon {
+            font-size: 1.2rem;
+        }
+
+        .contact-item-content h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: var(--deep-navy);
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-item-content p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .contact-item-content a {
+            color: var(--warm-gold);
+            text-decoration: none;
+        }
+
+        .contact-item-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Response Time */
+        .response-notice {
+            background: var(--muted-sage);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 4px;
+        }
+
+        .response-notice h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .response-notice p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Reasons Section */
+        .reasons-section {
+            padding: 4rem 0;
+            border-top: 1px solid rgba(0,0,0,0.08);
+        }
+
+        .reasons-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--deep-navy);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .reason-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+            border-left: 4px solid var(--warm-gold);
+        }
+
+        .reason-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--deep-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .reason-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 4rem 0;
+            border-top: 1px solid rgba(0,0,0,0.08);
+        }
+
+        .faq-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--deep-navy);
+            margin-bottom: 2rem;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+
+        .faq-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--deep-navy);
+            margin-bottom: 0.75rem;
+        }
+
+        .faq-item p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--deep-navy);
+            padding: 4rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--warm-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-text {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .footer-heading {
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--warm-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            max-width: 1100px;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .contact-layout {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .reasons-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .masthead-nav {
+                display: none;
+            }
+        }
+    </style>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Digital Rankings",
+        "description": "Contact Digital Rankings to report inaccuracies, suggest agencies for review, or ask questions about our methodology.",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "Digital Rankings",
+            "email": "editorial@digitalrankings.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Encinitas",
+                "addressRegion": "CA",
+                "postalCode": "92024",
+                "addressCountry": "US"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <a href="index.html" class="masthead-brand">Digital Rankings</a>
+        <nav class="masthead-nav">
+            <a href="index.html">Rankings</a>
+            <a href="encinitas-seo-guide.html">SEO Guide</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <span class="hero-label">Get In Touch</span>
+        <h1>Contact <em>Our Team</em></h1>
+        <p class="hero-subtitle">Questions, corrections, or suggestions? We'd love to hear from you.</p>
+    </section>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+
+        <!-- Contact Form and Info -->
+        <div class="contact-layout">
+            <div class="contact-form-section">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic...</option>
+                            <option value="correction">Report an Inaccuracy</option>
+                            <option value="suggestion">Suggest an Agency for Review</option>
+                            <option value="removal">Request Listing Removal</option>
+                            <option value="methodology">Question About Methodology</option>
+                            <option value="press">Press Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Please provide as much detail as possible..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info-section">
+                <h2>Contact Information</h2>
+                <p>Our editorial team reviews all messages and responds within 2 business days. For urgent corrections, please include "URGENT" in your subject line.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon" aria-hidden="true">📧</span>
+                        <div class="contact-item-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:editorial@digitalrankings.com">editorial@digitalrankings.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon" aria-hidden="true">📍</span>
+                        <div class="contact-item-content">
+                            <h4>Location</h4>
+                            <p>Encinitas, CA 92024<br>United States</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon" aria-hidden="true">🕐</span>
+                        <div class="contact-item-content">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday<br>9:00 AM - 5:00 PM PST</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="response-notice">
+                    <h4>Response Times</h4>
+                    <p>We typically respond to inquiries within 2 business days. Corrections and urgent matters are prioritized and usually addressed within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reasons to Contact -->
+        <section class="reasons-section">
+            <h2>How Can We Help?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h4>Report Inaccurate Information</h4>
+                    <p>Found an error in our rankings or content? We take accuracy seriously and will investigate and correct verified inaccuracies promptly.</p>
+                </div>
+                <div class="reason-card">
+                    <h4>Suggest an Agency for Review</h4>
+                    <p>Know of an SEO company in the Encinitas area that deserves consideration? Tell us about them and why they should be evaluated.</p>
+                </div>
+                <div class="reason-card">
+                    <h4>Request Listing Changes</h4>
+                    <p>Agency owners can request updates to their listing information or, in certain cases, removal from our rankings.</p>
+                </div>
+                <div class="reason-card">
+                    <h4>Press & Partnership Inquiries</h4>
+                    <p>Journalists, bloggers, and potential partners can reach out for interviews, quotes, or collaboration opportunities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h4>Do you accept payment for better rankings?</h4>
+                <p>No. Digital Rankings maintains complete editorial independence. We do not accept payment for rankings, reviews, or placement. Our rankings are based solely on our research methodology.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How can my agency be included in your rankings?</h4>
+                <p>We continuously research agencies in our coverage areas. You can suggest your agency using the contact form above, but inclusion is based solely on our evaluation criteria, not on requests or submissions.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>I disagree with my ranking. How can I appeal?</h4>
+                <p>We welcome feedback about our rankings. Please contact us with specific information about why you believe your evaluation should be reconsidered. We'll review your concerns and respond with our findings.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How often are rankings updated?</h4>
+                <p>We conduct major ranking updates annually, with quarterly reviews for significant changes. If agency circumstances change substantially, we may update individual listings between scheduled reviews.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <div class="footer-brand">Digital Rankings</div>
+                <p class="footer-text">Your trusted source for unbiased digital marketing agency reviews and industry insights. Based in Encinitas, California since 2020.</p>
+            </div>
+            <div>
+                <h4 class="footer-heading">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">SEO Company Rankings</a></li>
+                    <li><a href="encinitas-seo-guide.html">Encinitas SEO Guide</a></li>
+                    <li><a href="methodology.html">Our Methodology</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="authors.html">Our Authors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Digital Rankings. All rights reserved.</span>
+            <span>Made with care in Encinitas, CA</span>
+        </div>
+    </footer>
+
+</body>
+</html>
