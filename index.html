@@ -82,6 +82,7 @@
             color: var(--warm-gold);
             letter-spacing: 3px;
             text-transform: uppercase;
+            text-decoration: none;
         }
 
         .masthead-nav {
@@ -98,7 +99,8 @@
             transition: color 0.3s ease;
         }
 
-        .masthead-nav a:hover {
+        .masthead-nav a:hover,
+        .masthead-nav a.active {
             color: var(--warm-gold);
         }
 
@@ -792,12 +794,12 @@
 
     <!-- Masthead -->
     <header class="masthead">
-        <div class="masthead-brand">Digital Rankings</div>
+        <a href="index.html" class="masthead-brand">Digital Rankings</a>
         <nav class="masthead-nav">
-            <a href="#">SEO Guides</a>
-            <a href="#">Marketing</a>
-            <a href="#">Reviews</a>
+            <a href="encinitas-seo-guide.html">SEO Guide</a>
+            <a href="index.html" class="active">Top Companies</a>
             <a href="#">Resources</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
 
@@ -1183,9 +1185,9 @@
             <div>
                 <h4 class="footer-heading">Resources</h4>
                 <ul class="footer-links">
-                    <li><a href="#">SEO Guides</a></li>
+                    <li><a href="encinitas-seo-guide.html">SEO Guide</a></li>
+                    <li><a href="index.html">Top Companies</a></li>
                     <li><a href="#">Marketing Tips</a></li>
-                    <li><a href="#">Agency Directory</a></li>
                     <li><a href="#">Free Tools</a></li>
                 </ul>
             </div>
